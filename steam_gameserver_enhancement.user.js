@@ -10,6 +10,7 @@
 
 var $ = unsafeWindow.$J;
 
+// Add the header cell for the SteamID column
 $('<th>SteamID</th>').insertAfter('.gstable thead th:nth-of-type(1)');
 
 $('.gstable tbody tr').each(function() {
