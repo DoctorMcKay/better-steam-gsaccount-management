@@ -3,12 +3,12 @@
 // @namespace    doctormckay.com
 // @description  Enhances the "Steam Game Server Account Management" page
 // @include      *://steamcommunity.com/dev/managegameservers
-// @version      1.0.0
+// @version      1.0.1
 // @grant        none
 // @require      https://www.traderep.org/js/modules.min.js
 // ==/UserScript==
 
-var $ = unsafeWindow.$J;
+var $ = window.$J;
 
 // Add the header cell for the SteamID column
 $('<th>SteamID</th>').insertAfter('.gstable thead th:nth-of-type(1)');
