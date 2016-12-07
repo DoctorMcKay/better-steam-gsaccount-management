@@ -3,9 +3,9 @@
 // @namespace    doctormckay.com
 // @description  Enhances the "Steam Game Server Account Management" page
 // @include      *://steamcommunity.com/dev/managegameservers
-// @version      1.0.1
+// @version      1.0.2
 // @grant        none
-// @require      https://www.traderep.org/js/modules.min.js
+// @require      https://www.doctormckay.com/js/modules.min.js
 // ==/UserScript==
 
 var $ = window.$J;
